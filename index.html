@@ -10,94 +10,109 @@
     <title>Personal Website</title>
 </head>
 <body>
-    <header>
-        <h1>Alexandra Kwart</h1>
-        <nav>Contact</nav>
-        <nav>Curriculum</nav>
-    </header>
-    <main>
-        <img src="/images/Profilbild.jpg" alt="Profilfoto_Alexandra_Kwart">
-        <p>Kurzer Teaser Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur.
-        </p>
-        <h2>My Web Development Skills</h2>
-        <!-- Use Element other than list? -->
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <li>Skill 4</li>
-            <li>Skill 5</li>
-            <li>Skill 6</li>
-        </ul>
-        <h2>My Personal Skills</h2>
-        <!-- Use Element other than list? -->
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <li>Skill 4</li>
-            <li>Skill 5</li>
-            <li>Skill 6</li>
-        </ul>
-        <a href=""></a>
-        <address>
-            <h2>Contact Me</h2>
-        <!-- Use Element other than list? -->
-            <ul>
-                <li>Alexandra Kwart</li>
-                <li>My Street</li>
-                <li>My City ZIP 12345</li>
-                <li><a href="tel:+123456789">Phone</a></li>
-                <li><a href="mailto:myname@example.com">Email</a></li>
-                <li><a href="https://example.com">Xing</a></li>
-                <li><a href="https://example.com">LinkedIn</a></li>
-              </ul>
-        </address>
-        <figure>
-            <a href="https://example.com"><img src="/images/MeinBild.jpg" alt="Visit mit @ GitHub"></a>
-            <figcaption>GitHub</figcaption>
-        </figure>
-        <figure>
-            <a href="https://example.com"><img src="/images/MeinBild.jpg" alt="Visit mit @ Codepen"></a>
-            <figcaption>Codepen</figcaption>
-        </figure>
-        <figure>
-            <a href="https://example.com"><img src="/images/MeinBild.jpg" alt="Visit mit @ LinkedIn"></a>
-            <figcaption>LinkedIn</figcaption>
-        </figure>
-       <section>
-           <h2>Get to know me</h2>
-           <p>Längerer Teaser Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur.</p>
-        <div>
-            <h3>Jobtitle 1 & Company 1</h3>
-            <h4>Date</h4>
-            <p>1 Sentence Job-Description</p>
-        </div>
-        <div>
-            <h3>Jobtitle 2 & Company 2</h3>
-            <h4>Date</h4>
-            <p>1 Sentence Job-Description</p>
-        </div>
-        <div>
-            <h3>Jobtitle 3 & Company 3</h3>
-            <h4>Date</h4>
-            <p>1 Sentence Job-Description</p>
-        </div>
-        <div>
-            <h3>University</h3>
-            <h4>Date & Location</h4>
-            <p>Lorem, ipsum dolor sit amet.</p>
-        </div>
-        <div>
-            <h3>School</h3>
-            <h4>Date & Location</h4>
-            <p>Lorem, ipsum dolor sit amet.</p>
-        </div>
-       </section>
-    </main>
-    <footer>
-        <p>Copyright © Alexandra Kwart</p>
-        <p><a href="https://example.com">Impressum</a></p>
-    </footer>
+    <div class="container">
+        <header class="bg-secondary text-light">
+            <h1>Alexandra Kwart</h1>
+            <nav>Contact</nav>
+            <nav>Curriculum</nav>
+        </header>
+
+        <main>
+            <div class="row">
+                <div class="col">
+                    <div class="bg-light">
+                        <img src="/images/Profilbild.jpg" alt="Profilfoto_Alexandra_Kwart">
+                        <p>Kurzer Teaser Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-light">
+                    <h2>My Web Development Skills</h2>
+                        <!-- Use Element other than list? -->
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                            <li>Skill 4</li>
+                            <li>Skill 5</li>
+                            <li>Skill 6</li>
+                        </ul>
+                        <h2>My Personal Skills</h2>
+                        <!-- Use Element other than list? -->
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                            <li>Skill 4</li>
+                            <li>Skill 5</li>
+                            <li>Skill 6</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <address class="bg-info text-light">
+                <h2>Contact Me</h2>
+                 <p>
+                    Alexandra Kwart<br>
+                    My Street<br>
+                    My City ZIP 12345<br>
+                    <a href="tel:+123456789">Phone</a>
+                    <a href="mailto:myname@example.com">E-Mail</a>
+                    <a href="https://example.com">Xing</a>
+                    <a href="https://example.com">LinkedIn</a>
+                 </p>
+            </address>
+            <figure class="bg-dark text-light">
+                <a href="https://example.com"><img src="/images/MeinBild.jpg" alt="Visit mit @ GitHub"></a>
+                <figcaption class="text-center">GitHub</figcaption>
+            </figure>
+            <figure class="bg-dark text-light">
+                <a href="https://example.com"><img src="/images/MeinBild.jpg" alt="Visit mit @ Codepen"></a>
+                <figcaption class="text-center">Codepen</figcaption>
+            </figure>
+            <figure class="bg-dark text-light">
+                <a href="https://example.com"><img src="/images/MeinBild.jpg" alt="Visit mit @ LinkedIn"></a>
+                <figcaption class="text-center">LinkedIn</figcaption>
+            </figure>
+           <section class="bg-light text-dark">
+               <h2>Get to know me</h2>
+               <p>Längerer Teaser Text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quia porro doloribus. Sequi voluptatum maiores dolore neque consequuntur.</p>
+            </section>
+
+            <section class="bg-light text-dark">
+                <div>
+                    <h3>Jobtitle 1 & Company 1</h3>
+                    <h4>Date</h4>
+                    <p>1 Sentence Job-Description</p>
+                </div>
+                <div>
+                    <h3>Jobtitle 2 & Company 2</h3>
+                    <h4>Date</h4>
+                    <p>1 Sentence Job-Description</p>
+                </div>
+                <div>
+                    <h3>Jobtitle 3 & Company 3</h3>
+                    <h4>Date</h4>
+                    <p>1 Sentence Job-Description</p>
+                </div>
+                <div>
+                    <h3>University</h3>
+                    <h4>Date & Location</h4>
+                    <p>Lorem, ipsum dolor sit amet.</p>
+                </div>
+                <div>
+                    <h3>School</h3>
+                    <h4>Date & Location</h4>
+                    <p>Lorem, ipsum dolor sit amet.</p>
+                </div>
+            </section>
+           
+        </main>
+        <footer class="bg-secondary text-light">
+            <p>Copyright © Alexandra Kwart</p>
+            <p><a href="https://example.com">Impressum</a></p>
+        </footer>
+    </div>
 </body>
 </html>
